@@ -33,7 +33,7 @@ session_start();
 // unset($_SESSION['todo']);
 // unset($_SESSION['completed']);
 ?>
-<script src="./JS/main.js">
+<script src="./JS/script.js">
 
 </Script>
 

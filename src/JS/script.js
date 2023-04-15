@@ -53,7 +53,6 @@ function deleteTask(id) {
   }).done(function (result) {
     $("#incomplete-tasks").html(result);
   });
-  console.log(flag);
 }
 // function to delete item from completed
 function deleteTaskCompleted(id) {
@@ -76,7 +75,6 @@ function editTask(id) {
     $("#new-task").val(result);
     $("#addTask").html("Update");
   });
-  console.log(flag);
 }
 // function to revert back the completed task
 function completedRevert(id) {
